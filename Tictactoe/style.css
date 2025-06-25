@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(0deg, rgba(12, 31, 22,0.2) 0%, rgba(12, 31, 22,0.2) 16.667%,rgba(47, 48, 61,0.2) 16.667%, rgba(47, 48, 61,0.2) 33.334%,rgba(152, 97, 180,0.2) 33.334%, rgba(152, 97, 180,0.2) 50.001%,rgba(187, 114, 219,0.2) 50.001%, rgba(187, 114, 219,0.2) 66.668%,rgba(82, 64, 101,0.2) 66.668%, rgba(82, 64, 101,0.2) 83.335%,rgba(117, 81, 140,0.2) 83.335%, rgba(117, 81, 140,0.2) 100.002%),linear-gradient(22.5deg, rgba(12, 31, 22,0.2) 0%, rgba(12, 31, 22,0.2) 16.667%,rgba(47, 48, 61,0.2) 16.667%, rgba(47, 48, 61,0.2) 33.334%,rgba(152, 97, 180,0.2) 33.334%, rgba(152, 97, 180,0.2) 50.001%,rgba(187, 114, 219,0.2) 50.001%, rgba(187, 114, 219,0.2) 66.668%,rgba(82, 64, 101,0.2) 66.668%, rgba(82, 64, 101,0.2) 83.335%,rgba(117, 81, 140,0.2) 83.335%, rgba(117, 81, 140,0.2) 100.002%),linear-gradient(45deg, rgba(12, 31, 22,0.2) 0%, rgba(12, 31, 22,0.2) 16.667%,rgba(47, 48, 61,0.2) 16.667%, rgba(47, 48, 61,0.2) 33.334%,rgba(152, 97, 180,0.2) 33.334%, rgba(152, 97, 180,0.2) 50.001%,rgba(187, 114, 219,0.2) 50.001%, rgba(187, 114, 219,0.2) 66.668%,rgba(82, 64, 101,0.2) 66.668%, rgba(82, 64, 101,0.2) 83.335%,rgba(117, 81, 140,0.2) 83.335%, rgba(117, 81, 140,0.2) 100.002%),linear-gradient(90deg, rgb(106, 106, 106),rgb(42, 42, 42));
+    text-align: center;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1vmin;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.5);
+    font-size: 8vmin;
+    background-color: bisque;
+}
+
+.Reset{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border: none;
+    border-radius: 1rem;
+}
+
+.New{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border: none;
+    border-radius: 1rem;
+}
+
+#message{
+    color: #fff;
+    font-size: 5vmin;
+}
+
+.msg{
+    height: 30vmin;
+}
+
+.hide{
+    display: none;
+}
